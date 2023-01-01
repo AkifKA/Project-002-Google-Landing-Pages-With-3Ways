@@ -4,7 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!--! Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--! EXTERNAL CSS FILE -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Google Landing Pages With Three Ways</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header-container">
+      <h1>GOOGLE LANDING PAGES WITH THREE WAYS</h1>
+    </header>
+    <main class="main-container">
+      <section class="box flex-content">
+        <h3>Display-Flex Avantajları</h3>
+        <ul>
+          <li>Çok pratik.</li>
+          <li>
+            Ekstradan height, widht, margin ya da padding vermeye gerek
+            kalmıyor. Tüm bunların yerine gap özelliği kullanılabilir.
+          </li>
+          <li>Yatay olarak bir kaç alternetif şekilde otomatik hizalıyor.</li>
+          <li>Dikey olarak bir kaç alternetif şekilde otomatik hizalıyor.</li>
+        </ul>
+
+        <article class="links">
+          <a
+            href="https://akifka.github.io/Google-Landing-Page-With-Flex/"
+            target="_blank"
+            >Display Flex Sayfasına Git</a
+          >
+        </article>
+      </section>
+
+      <section class="box float-content">
+        <h3>Display-Float Dez Avantajları</h3>
+        <ul>
+          <li>Flex kadar pratik değil.</li>
+          <li>
+            Akışı bozuyor. Düzeltmek için clearfix gibi yöntemler uygulamak
+            gerek.
+          </li>
+          <li>
+            Sticky özelliği gibi bazı durumlarda yükseklik veya uzunluk vermek
+            gerekebiliyor.
+          </li>
+          <li>Yatay olarak otomatik hizalama yok.</li>
+          <li>Dikey olarak otomatik hizalama yok.</li>
+          <li>Sadece sağa ya da sola hizalama var.</li>
+        </ul>
+
+        <article class="links">
+          <a
+            href="https://akifka.github.io/Google-Landing-Page-With-Float/"
+            target="_blank"
+          >
+            Display Float Sayfasına Git</a
+          >
+        </article>
+      </section>
+
+      <section class="box inline-block-content">
+        <h3>Inline-Block Dez Avantajları</h3>
+        <ul>
+          <li>Hiç pratik değil, sadece bazı yerlerde pratik.</li>
+          <li>
+            Akışı bozuyor. Sadece hizalanmak istenen elementlere verilmeli.
+          </li>
+          <li>
+            Hizlamak için her bir ana taşıyıcıya ayrı ayrı width verip
+            text-align ile left veya right yapmak gerekiyor. İkinci yol olarak
+            display relative-absolute kullanılabilir.
+          </li>
+          <li>Yatay olarak otomatik hizalama yok.</li>
+          <li>Dikey olarak otomatik hizalama yok.</li>
+        </ul>
+        <article class="links">
+          <a
+            href="https://akifka.github.io/Project-002-Google-Landing-Page/"
+            target="_blank"
+            >Display Inline-Block Sayfasına Git</a
+          >
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
